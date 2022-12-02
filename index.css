@@ -6,10 +6,13 @@
     --yellow-color:#ffd647;
     --blue-color:#38c8fe;
     --pink-color:#fdc1ff;
+
+    --big-box-height: 20em;
 }
 .box{
     min-width: 1em;
     min-height: 5em;
+    background-clip: content-box;
 }
 
 .blue{
@@ -32,3 +35,12 @@
     background-color: var(--pink-color);
 }
 
+@media screen and (min-width: 992px){
+    .dark-orange{
+        height: var(--big-box-height);
+    }
+
+    .yellow{
+        height: var(--big-box-height);
+    }
+}
