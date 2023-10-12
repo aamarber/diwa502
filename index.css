@@ -1,34 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root{
-    --blue-color:#38c8fe;
-    --light-orange-color:#ffaf47;
-    --orange-color:#ff7747;
-    --yellow-color:#ffd647;
-    --blue-color:#38c8fe;
-    --pink-color:#fdc1ff;
-}
-.box{
-    min-width: 1em;
-    min-height: 5em;
-}
-
-.blue{
-    background-color: var(--blue-color);
-}
-
-.light-orange{
-    background-color: var(--light-orange-color);
-}
-
-.dark-orange{
-    background-color: var(--orange-color);
-}
-
-.yellow{
-    background-color: var(--yellow-color);
-}
-
-.pink{
-    background-color: var(--pink-color);
+@layer components{
+    .box{
+        @apply min-w-1 min-h-5;
+    }
 }
 
