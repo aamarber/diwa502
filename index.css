@@ -4,7 +4,7 @@
 
 @layer components{
     .box{
-        @apply min-w-1 min-h-5;
+        @apply min-w-1 min-h-5 m-2;
     }
 }
 
