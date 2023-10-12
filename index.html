@@ -7,14 +7,14 @@
         <link rel="stylesheet" href="./index.css">
     </head>
     <body>
-        <div>
-            <div class="box bg-blueish"></div>
-            <div class="box bg-light-orange"></div>
-            <div class="box bg-orangeish"></div>
-            <div class="box bg-yellowish"></div>
-            <div class="box bg-yellowish"></div>
-            <div class="box bg-yellowish"></div>
-            <div class="box bg-pinkish"></div>
+        <div class="grid h-screen">
+            <div class="box bg-blueish col-span-1"></div>
+            <div class="box bg-light-orange col-span-2 md:col-span-5"></div>
+            <div class="box row-span-3 bg-orangeish col-span-3 md:col-span-6"></div>
+            <div class="box bg-yellowish col-span-3 md:col-span-2"></div>
+            <div class="box bg-yellowish col-span-3 md:col-span-2"></div>
+            <div class="box bg-yellowish col-span-3 md:col-span-2"></div>
+            <div class="box bg-pinkish col-span-3 md:col-span-6 lg:hidden"></div>
         </div>
     </body>
 </html>
